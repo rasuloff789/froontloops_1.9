@@ -10,98 +10,36 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <div class="start">
-    <div class="body_first" id="style-2">
-      <div class="starting_part">
-        <h2>My Wallets</h2>
-        <img src="img/plus.svg" width="24" height="24" alt="plus">
+  <div class="container">
+    <section class="wallets">
+      <div class="wallets_top">
+        <h2 class="wallets_top_heading" >My Wallets</h2>
+        <button class="head_wallet_button" type="button">
+          <img src="img/plus.svg" width="24" height="24" alt="icon">
+        </button>
       </div>
-      <div class="part_of_body_first">
-        <div class="Cards">
-          <img src="img/visa.svg" width="75"  alt="visa">
-          <p>**** **** **** 2562</p>
-          <p>Valid thru: 12/17</p>
-        </div>
-        <div class="Cards card">
-          <img src="img/mastercard.svg" width="75" alt="mastercard">
-          <p>**** **** **** 2101</p>
-          <p>Valid thru: 07/19</p>
-        </div>
-        <div class="Cards">
-          <img src="img/maestro.svg" width="75" alt="maestro">
-          <p>**** **** **** 8335</p>
-          <p>Valid thru: 09/17</p>
-        </div>
-      </div>
-    </div>
-    <div class="body_second" id="style-3" >
-      <div class="starting_body_second">
-        <h2>Current Balance</h2>
-        <p class="idontknow">$729.<sup>00</sup></p>
-      </div>
-      <div class="columns">
-        <div class="apple">
-          <div class="apple_name">
-            <img src="img/minus.svg" width="15" alt="minus">
-            <div>
-              <h3>Apple iPhone 7, 128 GB</h3>
-              <p class="lorems">Lorem ipsum dolor sit.</p>
-            </div>
-          </div>
-          <p class="paragraphs">$650.<sup>00</sup></p>
-        </div>
-        <div class="funds_added">
-          <div class="funds_added_name">
-            <img src="img/plus.svg" alt="plus">
-            <div>
-              <h3>Funds Added</h3>
-              <p class="lorems">Lorem ipsum dolor sit.</p>
-            </div>
-          </div>
-          <p class="paragraph">$900.<sup>00</sup></p>
-        </div>
-        <div class="Energy_bill">
-          <div class="energy_bill_name">
-            <img src="img/minus.svg" alt="minus">
-            <div>
-              <h3>Energy Bill</h3>
-              <p class="lorems">Lorem ipsum dolor sit.</p>
-            </div>
-          </div>
-          <p class="paragraphs">$84.<sup>90</sup></p>
-        </div>
-        <div class="Ticket">
-          <div class="Ticket_name">
-            <img src="img/minus.svg" alt="minus">
-            <div>
-              <h3>The Eye Cinema Ticked</h3>
-              <p class="lorems">Lorem ipsum dolor sit.</p>
-            </div>
-          </div>
-          <p class="paragraphs">$40.<sup>00</sup></p>
-        </div>
-        <div class="McFood">
-          <div class="McFoodname">
-            <img src="img/minus.svg" alt="minus">
-            <div>
-              <h3>McFood Restaurant</h3>
-              <p class="lorems">Lorem ipsum dolor sit.</p>
-            </div>
-          </div>
-          <p class="paragraphs">$10.<sup>50</sup></p>
-        </div>
-        <div class="gas">
-          <div class="gasname">
-            <img src="img/minus.svg" alt="minus">
-            <div>
-              <h3>Gas Station</h3>
-              <p class="lorems">Lorem ipsum dolor sit.</p>
-            </div>
-          </div>
-          <p class="paragraphs">$30.<sup>00</sup></p>
-        </div>
-      </div>
-    </div>
+      <ul class="wallets_list">
+        <li class="wallet wallet-visa">
+          <a class="wallets-link" href="#">
+            <div class="wallet-number">**** **** **** 2562</div>   
+            <div class="wallet-expiration">Valid thru 12/17</div>        
+          </a>
+        </li>
+        <li class="wallet wallet-mastercard wallet-active">
+          <a class="wallets-link" href="#">
+            <div class="wallet-number">**** **** **** 2562</div>   
+            <div class="wallet-expiration">Valid thru 12/17</div>           
+          </a>
+        </li>
+        <li class="wallet wallet-maestro">
+          <a class="wallets-link" href="#">
+            <div class="wallet-number">**** **** **** 2562</div>   
+            <div class="wallet-expiration">Valid thru 12/17</div>            
+          </a>
+        </li>
+      </ul>
+    </section>
+  </div>
   </body>
   </html>
   
